@@ -455,6 +455,7 @@
 				5A11DD2E18F68646007CE97C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A11DD2F18F68646007CE97C /* Build configuration list for PBXNativeTarget "FlikrkrTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +464,7 @@
 				5A11DD3118F68646007CE97C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
