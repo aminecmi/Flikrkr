@@ -50,10 +50,10 @@
             </objects>
             <point key="canvasLocation" x="-596" y="-410"/>
         </scene>
-        <!--View Controller-->
+        <!--Picture View Controller-->
         <scene sceneID="KDs-Ng-sHE">
             <objects>
-                <viewController id="yEh-Fv-q7w" sceneMemberID="viewController">
+                <viewController id="yEh-Fv-q7w" customClass="PictureViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CVZ-F1-31E"/>
                         <viewControllerLayoutGuide type="bottom" id="oMx-j8-vFV"/>
@@ -61,9 +61,25 @@
                     <view key="view" contentMode="scaleToFill" id="lGe-eG-FQo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ePE-iI-GY2" customClass="ReaderView">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ePE-iI-GY2" firstAttribute="top" secondItem="CVZ-F1-31E" secondAttribute="bottom" id="9XR-GX-DoH"/>
+                            <constraint firstItem="ePE-iI-GY2" firstAttribute="leading" secondItem="lGe-eG-FQo" secondAttribute="leading" id="B0m-6h-Blz"/>
+                            <constraint firstAttribute="trailing" secondItem="ePE-iI-GY2" secondAttribute="trailing" id="LXy-nF-TAL"/>
+                            <constraint firstItem="oMx-j8-vFV" firstAttribute="top" secondItem="ePE-iI-GY2" secondAttribute="bottom" id="p9B-9g-6Gr"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JLn-gk-HfS"/>
+                    <connections>
+                        <outlet property="readerView" destination="ePE-iI-GY2" id="7JD-i3-N5s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ozi-Gb-rjv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
