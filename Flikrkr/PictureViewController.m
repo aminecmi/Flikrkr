@@ -39,7 +39,7 @@
 }
 - (int) numberOfPages
 {
-    return 4;
+    return 5;
 }
 - (UIView *) pageAtIndex:(int)index
 {

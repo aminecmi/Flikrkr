@@ -36,6 +36,7 @@
 -(void)displayPageAtIndex:(int)index
 {
     if (index >= 0 && index < [self.delegate numberOfPages]) {
+        [self.subviews.lastObject removeFromSuperview];
         UIView * view = [self.delegate pageAtIndex:index];
         [self addSubview:view];
         self.currentIndex = index;
