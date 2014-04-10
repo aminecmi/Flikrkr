@@ -22,6 +22,7 @@
 		5A11DD1F18F68644007CE97C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A11DD0318F68644007CE97C /* CoreData.framework */; };
 		5A11DD2718F68646007CE97C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A11DD2518F68646007CE97C /* InfoPlist.strings */; };
 		5A11DD2918F68646007CE97C /* FlikrkrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A11DD2818F68646007CE97C /* FlikrkrTests.m */; };
+		5A11DD3318F6871F007CE97C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A11DD3218F6871F007CE97C /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5A11DD2418F68646007CE97C /* FlikrkrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlikrkrTests-Info.plist"; sourceTree = "<group>"; };
 		5A11DD2618F68646007CE97C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A11DD2818F68646007CE97C /* FlikrkrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlikrkrTests.m; sourceTree = "<group>"; };
+		5A11DD3218F6871F007CE97C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				5A11DD0E18F68644007CE97C /* AppDelegate.h */,
 				5A11DD0F18F68644007CE97C /* AppDelegate.m */,
+				5A11DD3218F6871F007CE97C /* Storyboard.storyboard */,
 				5A11DD1418F68644007CE97C /* Images.xcassets */,
 				5A11DD1118F68644007CE97C /* Flikrkr.xcdatamodeld */,
 				5A11DD0618F68644007CE97C /* Supporting Files */,
@@ -230,6 +233,7 @@
 			files = (
 				5A11DD0A18F68644007CE97C /* InfoPlist.strings in Resources */,
 				5A11DD1518F68644007CE97C /* Images.xcassets in Resources */,
+				5A11DD3318F6871F007CE97C /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
