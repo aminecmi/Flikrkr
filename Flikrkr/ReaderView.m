@@ -51,7 +51,7 @@
             if (index < self.currentIndex) {
                 // page précédente
                 newView.center = left;
-                [UIView animateWithDuration:.3
+                [UIView animateWithDuration:.25
                                  animations:^{
                                      newView.center = center;
                                      oldView.center = right;
@@ -63,7 +63,7 @@
             else {
                 // page suivante
                 newView.center = right;
-                [UIView animateWithDuration:.3
+                [UIView animateWithDuration:.25
                                  animations:^{
                                      newView.center = center;
                                      oldView.center = left;
