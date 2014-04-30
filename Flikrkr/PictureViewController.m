@@ -32,9 +32,21 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     FlickLocation location;
-    location.latitude = 51.500773;
-    location.longitude = -0.12464;
-    location.radius = 1;
+    
+    // big ben
+    // location.latitude = 51.500773;
+    // location.longitude = -0.12464;
+    // location.radius = 5;
+    
+    // central park
+    // location.latitude = 40.767852;
+    // location.longitude = -73.979694;
+    // location.radius = 1;
+    
+    // paris
+    location.latitude = 48.856667;
+    location.longitude =  2.350987;
+    location.radius = 10;
     
     self.pictures = [FlickPicture picturesAroundLocation:location];
     self.readerView.delegate = self;
